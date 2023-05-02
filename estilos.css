@@ -164,7 +164,7 @@ header a:hover{
     text-align: center;
     padding: 15px;
     margin: 15px 0px;
-    padding:200px 0px;
+    padding:150px 0px;
     display: flex;
     flex-direction: column;
     color: black;
@@ -197,6 +197,44 @@ header a:hover{
     border-radius: 10px;
 }
 
+#formulario{
+    background-color:blueviolet;
+    padding: 200px 0px;
+    text-align: center;
+    display: block;
+    flex-direction: column;
+}
+
+.form_container{
+    display: grid;
+    margin-top: 3em;
+    gap: 2.5em;
+}
+
+.form_group{
+    position: relative;
+}
+
+.form_input{
+    width: 50%;
+    --color:black;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid var(--color);
+}
+
+.form_title{
+    color: black;
+}
+
+.form_label{
+    color:var(--color);
+    cursor:pointer;
+    position: absolute;
+    top: 0;
+    left: 80px;
+}
 
 @media(min-width: 720px){
     header{
